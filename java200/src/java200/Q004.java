@@ -6,10 +6,16 @@ public class Q004 {
 	 *  변경
 	 * */
 	public static void main(String[] args) {
-		System.out.println("hello world");
-		//
+		long days = System.currentTimeMillis();
+		int day=(int)(days/1000/24/60/60);
+		
+		System.out.println(toCelsius(4.9));
+		System.out.println("day = " + day);
+		
 	}
 	
-//	public 
+	public static double toCelsius(double fahrenheit) {
+		return 5.0/9 *(fahrenheit-32);
+	}
 
 }
