@@ -7,10 +7,7 @@ public class Q005 {
 	 *  2. 프로그램의 순서를 제어하기 위한 조건문은 if, switch, 삼항연산자(?:)
 	 *  3. 프로그램의 특정 부분을 반복시키는 반복문에는 for, while, do~while
 	 * */
-	public static void main(String[] args) {
-		
-	}
-	
+
 	/*
 	 * 메서드
 	 *  - 선언과 호출
